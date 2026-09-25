@@ -1,0 +1,43 @@
+body {
+    border: 1px solid #000;
+    width: 50%;
+    margin: 0 auto;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: cornsilk;
+    width: inherit;
+    height: 1.5em;
+    text-align: center;
+    z-index: 10;
+}
+
+main {
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+
+h2 {
+    scroll-margin-top: 1em;
+}
+
+section > img {
+    position: relative;
+    float: left;
+    margin: 0.25em;
+    max-width: 25%;
+    width: 64px;
+    height: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: aquamarine;
+    width: inherit;
+    height: 1.5em;
+    text-align: center;
+    z-index: 10;
+}
